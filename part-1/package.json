@@ -1,0 +1,22 @@
+{
+  "name": "part-1",
+  "version": "1.0.0",
+  "description": "Code accompanying https://medium.com/@theaustinlyons/node-js-react-part-1-97c3cc16a352#.56gp94xr0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinlyons/react-nodejs-tutorial.git"
+  },
+  "author": "Austin Lyons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinlyons/react-nodejs-tutorial/issues"
+  },
+  "homepage": "https://github.com/austinlyons/react-nodejs-tutorial#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
