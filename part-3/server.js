@@ -27,6 +27,7 @@ app.get('/', (req, res) => {
      <body>
      <div id="app">${reactHtml}</div>
      <script src="/static/js/react-app.js"></script>
+     </body>
     </html>
   `;
 
