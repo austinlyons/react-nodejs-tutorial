@@ -46,17 +46,17 @@
 
 	'use strict';
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
 	var _reactDom = __webpack_require__(1);
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _componentsReactAppJsx = __webpack_require__(147);
+	var _ReactApp = __webpack_require__(147);
 
-	var _componentsReactAppJsx2 = _interopRequireDefault(_componentsReactAppJsx);
+	var _ReactApp2 = _interopRequireDefault(_ReactApp);
 
-	_reactDom2['default'].render(React.createElement(_componentsReactAppJsx2['default'], null), document.getElementById('app'));
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	_reactDom2.default.render(React.createElement(_ReactApp2.default, null), document.getElementById('app'));
 
 /***/ },
 /* 1 */
@@ -18648,8 +18648,6 @@
 
 	'use strict';
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
 	var _react = __webpack_require__(148);
 
 	var _react2 = _interopRequireDefault(_react);
@@ -18658,15 +18656,17 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	var ReactApp = function ReactApp(props) {
-	  return _react2['default'].createElement(
+	  return _react2.default.createElement(
 	    'div',
 	    null,
 	    'This is a React app!'
 	  );
 	};
 
-	_reactDom2['default'].render(_react2['default'].createElement(ReactApp, null), document.getElementById('app'));
+	_reactDom2.default.render(_react2.default.createElement(ReactApp, null), document.getElementById('app'));
 
 /***/ },
 /* 148 */
